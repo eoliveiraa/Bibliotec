@@ -19,7 +19,7 @@ header {
 
 footer {
     width: 100%;
-    height: 250px;
+    height: 300px;
     background-color: #26333D;
 }
 
@@ -47,12 +47,18 @@ header nav {
 
 }
 
+nav a:hover {
+    color: #2FD6CB;
+    text-decoration: none;
+}
+
 header nav a {
     display: flex;
     color: white;
     text-decoration: none;
 }
 
+/* fim do menu */
 main {
     justify-content: center;
     align-items: center;
@@ -63,6 +69,58 @@ main {
     /* background-color: #E9F0EF; */
 }
 
+/* banner */
+#banner {
+    width: 100%;
+    height: 550px;
+    background-color: #3691d8;
+}
+
+.banner-flex {
+    display: flex;
+    /* border: 2px solid goldenrod;  */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 300px;
+    /* border: 2px solid rgb(196, 84, 102); */
+}
+
+#banner img {
+    margin-top: 53px;
+    width: 500px;
+    height: 100%;
+    align-self: flex-end;
+}
+
+h1 {
+    color: white;
+}
+
+.banner-info p {
+    color: white;
+    font-size: 20px;
+}
+
+.banner-info button {
+    background-color: #26333D;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px 10px 25px;
+    height: 50px;
+    width: 180px;
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+
+/* favoritos */
 .icones {
     display: flex;
     justify-content: space-around;
@@ -86,7 +144,7 @@ main {
     background-color: #E9F0EF;
 }
 
-.porque-usar h1 {
+.porque-usar h2 {
     padding-top: 20px;
 }
 
@@ -110,7 +168,7 @@ main {
     border: 2px solid #2FD6CB;
 }
 
-.bibliotec-flex h1 {
+.bibliotec-flex h2 {
     width: 100%;
     text-align: center;
     display: flex;
@@ -168,15 +226,67 @@ main {
     text-align: center;
 }
 
-.livros h2 {
+.livros h3 {
     margin-top: 15px;
     font-size: 15px;
 }
 
-.livros h3 {
+.livros h4 {
     margin-top: 14px;
     font-size: medium;
 }
+
+/* seçao de acesso */
+#acesso {
+    width: 100%;
+    height: 400px;
+    background-color: #3691d8;
+}
+
+.acesso-flex {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    /* border: 2px solid purple; */
+    height: 100%;
+}
+
+.acesso-flex img{
+    height: 100%;
+   
+}
+
+.acesso-gratis {
+     display: flex; 
+     justify-content: space-around; 
+     flex-direction: column; 
+    width: 450px;
+    height: 100%;
+}
+
+.acesso-gratis p {
+    color: white;
+    font-size: 20px;
+    
+}
+
+.acesso-gratis h2{
+    color: white;
+}
+
+.acesso-gratis button{
+    background-color: #26333D;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px 10px 25px;
+    height: 50px;
+    width: 180px;
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+
+/* top 4 livros */
 
 .top-4livros {
     padding: 30px;
@@ -198,7 +308,8 @@ main {
     border: 2px solid #2FD6CB;
     margin-bottom: 10px;
 }
-.conteudo{
+
+.conteudo {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -212,6 +323,8 @@ main {
     width: 100%;
 }
 
+/* rodape */
+
 .logo-footer {
     padding: 20px;
     display: flex;
@@ -221,30 +334,31 @@ main {
     /* border: 2px solid red; */
 }
 
-.nav-footer{
+.nav-footer {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-     width: 500px;
+    width: 500px;
 }
 
-.left-info{
+.left-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
     width: 500px;
     border: #2FD6CB;
     height: 80%;
 }
-.right-info{
+
+.right-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
     width: 200px;
     height: 80%;
 }
 
-.right-info a{
+.right-info a {
     color: white;
     text-decoration: none;
     height: 100%;
@@ -257,15 +371,36 @@ main {
     text-decoration: none;
 }
 
-.nav-footer h4{
+.nav-footer h4 {
     color: #2FD6CB;
     font-size: 16px;
-} 
+}
 
-.redes-sociais{
+.redes-sociais {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     /* border: 2px solid pink */
 }
 
+footer hr {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 40px;
+}
+
+.barra a {
+    color: white;
+    text-decoration: none;
+}
+
+.padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
