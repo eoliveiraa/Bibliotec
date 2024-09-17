@@ -30,7 +30,7 @@ footer {
     margin: 0 auto;
 }
 
-.header-flex {
+.header-flex{
     display: flex;
     justify-content: space-between;
     height: 100%;
