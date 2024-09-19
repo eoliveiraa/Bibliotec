@@ -131,7 +131,7 @@ h1 {
     height: 300px;
     align-items: center;
     border-radius: 20px;
-    box-shadow: 2px 2px 20px rgb(142, 142, 142);
+    box-shadow: 2px 2px 20px rgba(212, 211, 211, 0.4);
     text-align: center;
     margin-top: 40px;
     padding: 10px;
