@@ -38,6 +38,7 @@ nav a:hover {
     color: #2FD6CB;
     text-decoration: none;
 }
+
 nav a:hover {
     color: #2FD6CB;
     text-decoration: none;
@@ -84,7 +85,7 @@ button {
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(32, 180, 180);
     color: black;
 }
@@ -132,4 +133,9 @@ form label {
     width: 500px;
     display: flex;
     margin-bottom: 10px;
+}
+
+header nav img {
+    width: 30px;
+    height: 30px;
 }

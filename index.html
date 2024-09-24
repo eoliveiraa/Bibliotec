@@ -14,11 +14,14 @@
         <div class="layout-grid header-flex">
             <img src="./images/logo-desktop.svg" alt="Livro aberto com o texto bibliotec ao lado">
 
-            <nav>
+            <nav id="menu" class="menu">
                 <a href="#">Quem somos</a>
                 <a href="#">Nosso acervo</a>
-                <a href="#">Login</a>
+                <a href="./login.html">Login</a>
+
             </nav>
+
+            <img src="./images/menu-hamburger.png" alt="" onclick="mostra-menu()">
 
         </div>
     </header>
@@ -184,6 +187,13 @@
             <a href="#">Termos e Condições</a>
         </div>
     </footer>
+
+    <script>
+        mostrar(){
+            document.getElementById("menu").classList.toggle("mostrar-menu");
+        }
+    </script>
+
 
 </body>
 

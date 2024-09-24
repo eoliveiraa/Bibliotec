@@ -30,7 +30,7 @@ footer {
     margin: 0 auto;
 }
 
-.header-flex{
+.header-flex {
     display: flex;
     justify-content: space-between;
     height: 100%;
@@ -118,7 +118,9 @@ h1 {
     border: none;
     border-radius: 7px;
     text-transform: uppercase;
+    cursor: pointer;
 }
+
 
 /* favoritos */
 .icones {
@@ -245,21 +247,21 @@ h1 {
 
 .acesso-flex {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     /* border: 2px solid purple; */
     height: 100%;
 }
 
-.acesso-flex img{
+.acesso-flex img {
     height: 100%;
-   
+
 }
 
 .acesso-gratis {
-     display: flex; 
-     justify-content: space-around; 
-     flex-direction: column; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     width: 450px;
     height: 100%;
 }
@@ -267,14 +269,14 @@ h1 {
 .acesso-gratis p {
     color: white;
     font-size: 20px;
-    
+
 }
 
-.acesso-gratis h2{
+.acesso-gratis h2 {
     color: white;
 }
 
-.acesso-gratis button{
+.acesso-gratis button {
     background-color: #26333D;
     color: white;
     font-size: 20px;
@@ -284,6 +286,7 @@ h1 {
     border: none;
     border-radius: 7px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 /* top 4 livros */
@@ -403,4 +406,54 @@ footer hr {
 .padding {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+/* mobile */
+
+@media screen and (max-width: 992px) {
+    .porque-usar {
+        height: auto;
+        padding: 20px;
+    }
+
+    .bibliotec-flex {
+        flex-direction: column;
+    }
+
+    .livros {
+        flex-direction: column;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .top-4livros {
+        height: auto;
+    }
+
+    .banner-flex {
+        max-width: 100%;
+        display: none;
+    }
+
+    .banner-info {
+        width: 450px;
+        height: 300px;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left: -80%;
+        z-index: 10;
+        background-color: black;
+
+        width: 30%;
+        height: 100%;
+    }
+
+    .mostra-menu {
+        left: 0;
+    }
+
+
 }
